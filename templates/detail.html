@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+
+
+ <div class="shadow card">
+
+
+    <div class="card-body">  <!-- vengil boostrapil ninnum edukkam -->
+        <h5 class="card-title"> {{i.name}}</h5>
+        <p> <b>{{i.priority}}</b></p>
+        <p> <b>{{i.date}}</b></p>
+        <a class="btn btn-danger" href="{% url 'delete' i.id %} ">DELETE</a>
+        <a class="btn btn-success" href="{% url 'update' i.id %} ">UPDATE</a>
+    </div>
+ </div>
+
+
+{% endblock %}

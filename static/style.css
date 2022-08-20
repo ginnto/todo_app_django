@@ -1,0 +1,20 @@
+
+.banner             /* class ne .(dot vechu call cheyannam eg .banner   */
+{
+    background-color:darkred;
+    width:100%;
+    height:200px;
+    margin-bottom:50px;
+
+}
+
+
+.banner-text
+{
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    color:white;
+    font-family:times new roman;
+}
